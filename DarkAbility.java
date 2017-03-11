@@ -20,8 +20,9 @@ public abstract class DarkAbility extends ElementalAbility{
 	public Element getElement() {
 		// TODO Auto-generated method stub
 		return Main.Dark;
+	
 	}
-	@Override
+	
 	public ChatColor getColor(){
 		return ChatColor.BLACK;
 	}
