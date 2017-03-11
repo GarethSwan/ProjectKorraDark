@@ -3,8 +3,7 @@
 
 package com.Swan.Korra.PKDark;
 
-import net.md_5.bungee.api.ChatColor;
-
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import com.projectkorra.projectkorra.Element;
@@ -21,13 +20,14 @@ public abstract class DarkAbility extends ElementalAbility{
 	public Element getElement() {
 		// TODO Auto-generated method stub
 		return Main.Dark;
-		
+	}
+	@Override
 	public ChatColor getColor(){
-		return "ChatColor.BLACK;"
+		return ChatColor.BLACK;
 	}
 	
 	
 	
-	}
+	
 	
 }
